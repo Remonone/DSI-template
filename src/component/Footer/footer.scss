@@ -1,0 +1,42 @@
+footer{
+    .logo{
+        margin-bottom: 10px;
+    }
+    .upper{
+        margin-bottom: 23px;
+    }
+    .wrapper{
+        display: flex;
+        align-items: flex-end;
+        gap: 47px;
+        p{
+            font-size: 18px;
+        }
+        .bold{
+            font-weight: 500;
+            padding-bottom: 8px;
+        }
+        h4{
+            padding-bottom: 15px;
+        }
+        .light{
+            font-weight: 300;
+            line-height: 150%;
+        }
+    }
+    .lower{
+        background: #EE4248;
+        padding: 22px 0;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media(max-width: 768px){
+    .upper{
+        .wrapper{
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+}
